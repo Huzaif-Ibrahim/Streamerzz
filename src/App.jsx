@@ -14,7 +14,7 @@ const App = () => {
       <div id="howitworks"><HowItWorks/></div>
       <div id="features"><Features/></div>
       <div id="pricing"><Plans/></div>
-      <Testimonials/>
+      <div id="testimonials"><Testimonials/></div>
       <Footer/>
       
     </main>
