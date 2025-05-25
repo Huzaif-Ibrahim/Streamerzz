@@ -16,7 +16,7 @@ const Plans = () => {
     return (
         <section className="max-w-7xl mx-4 lg:mx-auto py-12 md:py-16 border-b border-neutral-800">
             <div className="container flex flex-col items-center">
-                <motion.h1 className="text-5xl font-medium mb-4 tracking-tighter bg-gradient-to-b from-neutral-700 via-neutral-400 to-neutral-100 text-transparent bg-clip-text"
+                <motion.h1 className="text-5xl font-medium mb-4 tracking-tighter textt-center bg-gradient-to-b from-neutral-700 via-neutral-400 to-neutral-100 text-transparent bg-clip-text"
                     variants={fadeInUpText}
                     animate='hidden'
                     whileInView='visible'
