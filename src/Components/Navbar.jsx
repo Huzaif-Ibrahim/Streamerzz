@@ -41,9 +41,9 @@ const Navbar = () => {
 
             {isMenu && (
                 <div className='mt-4 flex flex-col items-center space-y-4 py-2'>
-                    <a href="#howitworks">How it works</a>
-                    <a href="pricing">Pricing</a>
-                    <a href="testimonials">Testimonials</a>
+                    <a href="#howitworks" onClick={()=>setIsMenu(false)}>How it works</a>
+                    <a href="#pricing" onClick={()=>setIsMenu(false)}>Pricing</a>
+                    <a href="#testimonials" onClick={()=>setIsMenu(false)}>Testimonials</a>
                     <a href="/">Login</a>
                     <div className='flex space-x-2'>
                         <button className='bg-blue-700 rounded-lg px-3 py-2'>Get a demo</button>
