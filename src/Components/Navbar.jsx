@@ -23,9 +23,9 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className='h-6' />
 
                 <div className="hidden lg:flex md:space-x-6 text-neutral-400 text-sm">
-                    <a href="/" className='hover:text-neutral-100'>How it works</a>
-                    <a href="/" className='hover:text-neutral-100'>Pricing</a>
-                    <a href="/" className='hover:text-neutral-100'>Testimonials</a>
+                    <a href="#howitworks" className='hover:text-neutral-100'>How it works</a>
+                    <a href="#pricing" className='hover:text-neutral-100'>Pricing</a>
+                    <a href="#testimonials" className='hover:text-neutral-100'>Testimonials</a>
                 </div>
 
                 <div className="hidden lg:flex space-x-6 items-center text-sm">

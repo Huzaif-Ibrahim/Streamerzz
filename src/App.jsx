@@ -11,9 +11,9 @@ const App = () => {
     <main className="text-neutral-300 antialiased">
       <Navbar />
       <Hero />
-      <HowItWorks/>
-      <Features/>
-      <Plans/>
+      <div id="howitworks"><HowItWorks/></div>
+      <div id="features"><Features/></div>
+      <div id="pricing"><Plans/></div>
       <Testimonials/>
       <Footer/>
       
